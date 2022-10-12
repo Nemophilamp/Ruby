@@ -1,5 +1,7 @@
 def greeting(name)
-  "Hello, #{name}!" # この行のnameは、引数で渡すname ☆彡戻り値
+  return "Hello, #{name}!" 
+  # この行のnameは、引数で渡すname で　戻り値
+  # returnをつけると、その行が戻り値として優先される
   "Good morning, #{name}!"
 end
 
